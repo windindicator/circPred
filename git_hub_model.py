@@ -3,13 +3,8 @@ from torch import nn
 import torch
 
 
-def prediction(model, sequence):
-    sequence = model(sequence)
-    label_index = torch.argmax(sequence, dim=-1)
-    return label_index
 
-
-# 搭建神经网络
+# model for identification task and mining task
 class classification_model(nn.Module):
     def __init__(self):
         super(classification_model, self).__init__()
@@ -105,6 +100,7 @@ class classification_model(nn.Module):
         return sequence
 
 
+# model for scanning task
 class scanning_model(nn.Module):
     def __init__(self):
         super(scanning_model, self).__init__()
