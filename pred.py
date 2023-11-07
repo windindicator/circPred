@@ -1,7 +1,7 @@
 import argparse
 import fm
 import torch
-import model
+import git_hub_model
 
 
 def get_sequence(path):
