@@ -24,7 +24,7 @@ Please follow [RNA foundation model page](https://github.com/ml4bio/RNA-FM)
 python pred.py --data_path="./example.fasta" --task="scanning"
 ```
 
-'--task' can be selected from identification, scanning, and mining
+'--task' can be selected from identification, scanning, and mining.
 Result file will be saved in the `result.txt`.
 
 
