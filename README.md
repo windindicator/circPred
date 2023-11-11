@@ -13,6 +13,7 @@ https://drive.google.com/drive/folders/1_JAAnswijYZYLEPUsbK-UJnmwvHTDrFr?usp=sha
   year={2022}
 }
 ```
+</details>
 
 ## Create Environment with Conda
 If you want to use circPredictor, set up an RNA-FM environment. 
