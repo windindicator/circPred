@@ -19,7 +19,7 @@ https://drive.google.com/drive/folders/1_JAAnswijYZYLEPUsbK-UJnmwvHTDrFr?usp=sha
 If you want to use circPredictor, set up an RNA-FM environment. 
 Please follow [RNA foundation model page](https://github.com/ml4bio/RNA-FM)
 
-## Apply circPredictor with Existing Scripts. <a name="Usage"></a>
+## Apply circPredictor with Existing Scripts.
 ```
 python pred.py --data_path="./example.fasta" --task="scanning"
 ```
